@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+function addParam() {
+
+    var url = "updatebook?id=" + document.getElementById('bookid').value +"&name="+document.getElementById('bookname').value
+	+"&price="+document.getElementById('bookprice').value;
+    document.getElementById("myForm").setAttribute('action', url);
+
+}
+</script>
+<body>
+	<h1>Book Updating System</h1>
+ 
+	<form id="myForm" action="#" enctype="text method="get" >
+ 
+	   <p>
+		book Id : <input type="text" id="bookid" size="45" />
+	   </p>
+	   
+ 		<p>
+		book Name : <input type="text" id="bookname" name="type" size="45" />
+	   </p>
+	   
+	   <p>
+		Price : <input type="text" id="bookprice" name="header" size="45" />
+	   </p>
+	   
+	   <input type="submit" title="Update book" onclick="addParam()"/>
+	</form>
+ 
+</body>
+</html>		}
+			}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+
+<form action="poc1" method="post">
+<Br/>whocares<input type="text" name="whocares"/>
+<input type="submit" value="post"/>
+</form>
+
+<button id="b2"> jquery works</button>
+
+
+</body>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script>//our scrip will come here 
+
+
+
+$(document).ready(function()
+{
+console.log("no more sins");
+$("#b2").click(function () 
+	{ 
+		//console.log("jquery works");
+		alert("jquery works")
+	});
+	
+});
+
+
+</script>
+
+
+</html>
